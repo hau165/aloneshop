@@ -141,22 +141,22 @@ export default [
 [
     {
       image: headphone9,
-      name: "Headphone 9",
+      name: "banphim",
       price: "1.000.000 đồng",
     },
     {
       image: headphone10,
-      name: "Headphone 10",
+      name: "banphim 10",
       price: "1.000.000 đồng",
     },
     {
       image: headphone11,
-      name: "Headphone 11",
+      name: "banphim 11",
       price: "1.000.000 đồng",
     },
     {
       image: headphone12,
-      name: "Headphone 12",
+      name: "banphim 12",
       price: "1.000.000 đồng",
     },
   ],
@@ -164,22 +164,22 @@ export default [
 [
     {
       image: headphone9,
-      name: "Headphone 9",
+      name: "Chuot 9",
       price: "1.000.000 đồng",
     },
     {
       image: headphone10,
-      name: "Headphone 10",
+      name: "Chuot 10",
       price: "1.000.000 đồng",
     },
     {
       image: headphone11,
-      name: "Headphone 11",
+      name: "Chuot 11",
       price: "1.000.000 đồng",
     },
     {
       image: headphone12,
-      name: "Headphone 12",
+      name: "Chuot 12",
       price: "1.000.000 đồng",
     },
   ],
@@ -187,22 +187,22 @@ export default [
 [
     {
       image: headphone9,
-      name: "Headphone 9",
+      name: "Sac/Cap 9",
       price: "1.000.000 đồng",
     },
     {
       image: headphone10,
-      name: "Headphone 10",
+      name: "Sac/Cap 10",
       price: "1.000.000 đồng",
     },
     {
       image: headphone11,
-      name: "Headphone 11",
+      name: "Sac/Cap 11",
       price: "1.000.000 đồng",
     },
     {
       image: headphone12,
-      name: "Headphone 12",
+      name: "Sac/Cap 12",
       price: "1.000.000 đồng",
     },
   ],
@@ -210,22 +210,22 @@ export default [
 [
     {
       image: headphone9,
-      name: "Headphone 9",
+      name: " Sac du phong 9",
       price: "1.000.000 đồng",
     },
     {
       image: headphone10,
-      name: "Headphone 10",
+      name: " Sac du phong 10",
       price: "1.000.000 đồng",
     },
     {
       image: headphone11,
-      name: "Headphone 11",
+      name: " Sac du phong 11",
       price: "1.000.000 đồng",
     },
     {
       image: headphone12,
-      name: "Headphone 12",
+      name: " Sac du phong 12",
       price: "1.000.000 đồng",
     },
   ],
@@ -233,22 +233,22 @@ export default [
 [
     {
       image: headphone9,
-      name: "Headphone 9",
+      name: "Loa 9",
       price: "1.000.000 đồng",
     },
     {
       image: headphone10,
-      name: "Headphone 10",
+      name: "Loa 10",
       price: "1.000.000 đồng",
     },
     {
       image: headphone11,
-      name: "Headphone 11",
+      name: "Loa 11",
       price: "1.000.000 đồng",
     },
     {
       image: headphone12,
-      name: "Headphone 12",
+      name: "Loa 12",
       price: "1.000.000 đồng",
     },
   ],

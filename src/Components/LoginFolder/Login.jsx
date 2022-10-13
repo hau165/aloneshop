@@ -1,4 +1,4 @@
-import "../LoginFolder/Login.css";
+import "./Login.css";
 import FbIcon from '../Images/facebook.ico'
 import GgIcon from '../Images/google.ico'
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Component } from "react";
-import "../FooterFolder/Footer.css";
+import "./Footer.css";
 import logo from "../Images/logo.png";
 
 

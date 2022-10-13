@@ -1,6 +1,6 @@
 import { Component } from "react";
 import React, { useState } from "react";
-import "../AboutUsFolder/AboutUs.css";
+import "./AboutUs.css";
 function Header() {
   return (
     <div className="aboutUs">

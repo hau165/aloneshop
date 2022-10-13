@@ -1,6 +1,6 @@
 import { Component } from "react";
 import React, { useState } from "react";
-import "../MainPageFolder/MainPage.css";
+import "./MainPage.css";
 import banner from "../Images/banner_1.jpg";
 import data from '../data'
 import ContainerItem from "../ContainerItem";

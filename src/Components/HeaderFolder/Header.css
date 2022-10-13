@@ -29,6 +29,10 @@ button {
     font-size: 20px;
     font-weight: bolder;
 }
+
+.header-nav_menu button a{
+    color: black;
+}
 .header-nav_menu button:hover {
     border-bottom: solid 2px #ccc;
 }
@@ -84,3 +88,4 @@ button {
     border-radius: 25px;
     line-height: 16px;
 }
+

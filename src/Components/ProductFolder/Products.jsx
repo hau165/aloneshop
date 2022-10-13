@@ -1,12 +1,20 @@
 import { Component } from "react";
 import React, { useState } from "react";
 import data from '../data'
-import "../ProductFolder/Products.css";
+import "./Products.css";
 import banner from "../Images/banner_1.jpg";
 import ContainerItem from "../ContainerItem";
+import ProductsHeadphone from "./ProductsHeadphone";
+import ProductsKeyboard from "./ProductsKeyboard";
+import ProductsMouse from "./ProductsMouse";
+import ProductsSpeaker from "./ProductsSpeaker";
+import ProductsCharger from "./ProductsCharger";
+import ProductsChargerBackup from "./ProductsChargerBackup";
 
-function ProductsHeadphone() {
-    const [active, setActive] = useState("Sản phẩm");
+
+
+function Products() {
+    const [active, setActive] = useState("ProductsHeadphone");
     return (
         <div>
             <div className="mainPage_banner">
@@ -15,16 +23,21 @@ function ProductsHeadphone() {
 
             <div className="container__products">
                 <div className="container__products-nav">
-                    <button>Tai nghe</button>
-                    <button>Bàn phím</button>
-                    <button>Chuột</button>
-                    <button>Sạc / Cáp</button>
-                    <button>Sạc dự phòng</button>
-                    <button>Loa</button>
+                    <button onClick={() => setActive("ProductsHeadphone")}>Tai nghe</button>
+                    <button onClick={() => setActive("ProductsKeyboard")}>Bàn phím</button>
+                    <button onClick={() => setActive("ProductsMouse")}>Chuột</button>
+                    <button onClick={() => setActive("ProductsSpeaker")}>Sạc / Cáp</button>
+                    <button onClick={() => setActive("ProductsCharger")}>Sạc dự phòng</button>
+                    <button onClick={() => setActive("ProductsChargerBackup")}>Loa</button>
                 </div>
 
                 <div className="container__products-products">
-                    {data[3].map(item => ContainerItem(item.image, item.name, item.price))}
+                    {active==="ProductsHeadphone" && <ProductsHeadphone/>}
+                    {active==="ProductsKeyboard" && <ProductsKeyboard/>}
+                    {active==="ProductsMouse" && <ProductsMouse/>}
+                    {active==="ProductsSpeaker" && <ProductsSpeaker/>}
+                    {active==="ProductsCharger" && <ProductsCharger/>}
+                    {active==="ProductsChargerBackup" && <ProductsChargerBackup/>}
                 </div>
             </div>
 
@@ -32,4 +45,4 @@ function ProductsHeadphone() {
     );
 }
 
-export default ProductsHeadphone;
+export default Products;

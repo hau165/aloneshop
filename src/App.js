@@ -9,20 +9,11 @@ import Login from './Components/LoginFolder/Login'
 // import Contact from './Components/Contact'
 
 function App() {
-  const [active, setActive] = useState("MainPage")
   return (
     <div className="App">
-        <div><Header/></div>
-        <div className='container'>
-          <div><MainPage/></div>
-          <div><Product/></div>
-          <div><AboutUs/></div>
-          <div><Login/></div>
-        </div>
-
-        <div><Footer/></div>
+        <Header/>
+        <Footer/>
     </div>
   );
 }
-
 export default App;
