@@ -84,12 +84,14 @@ button {
 }
 .header-right_item .logIn-btn {
     background-color: rgb(0, 100, 255);
-    color: #fff;
     padding: 8px 12px;
     border-radius: 25px;
     line-height: 16px;
 }
+.header-right_item .logIn-btn a{
+    color: #fff;
 
+}
 .stylebtn {
     border-bottom: solid 2px black;
 }

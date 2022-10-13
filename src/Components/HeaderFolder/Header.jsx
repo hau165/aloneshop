@@ -27,9 +27,9 @@ function Header() {
                 </div>
 
                 <div className="header-nav_menu">
-                    <button className={style === 'mainpage' && 'stylebtn'} onClick={() => setStyle("mainpage")} ><NavLink to="/MainPage">MainPage</NavLink></button>
-                    <button className={style === 'product' && 'stylebtn'} onClick={() => setStyle("product")}><NavLink to="/Products">Products</NavLink></button>
-                    <button className={style === 'aboutus' && 'stylebtn'} onClick={() => setStyle("aboutus")}><NavLink to="/AboutUs">AboutUs</NavLink></button>
+                    <button className={style === 'mainpage' && 'stylebtn'} onClick={() => setStyle("mainpage")} ><NavLink to="/MainPage">Trang chủ</NavLink></button>
+                    <button className={style === 'product' && 'stylebtn'} onClick={() => setStyle("product")}><NavLink to="/Products">Sản phẩm</NavLink></button>
+                    <button className={style === 'aboutus' && 'stylebtn'} onClick={() => setStyle("aboutus")}><NavLink to="/AboutUs">Giới thiệu</NavLink></button>
                 </div>
 
                 <div className="header-right">
@@ -42,7 +42,7 @@ function Header() {
 
                     <div className="header-right_item">
                         <button><img src={shoppingIcon} /></button>
-                        <button className="logIn-btn"><NavLink to="/Login">Login</NavLink></button>
+                        <button className="logIn-btn"><NavLink to="/Login">Đăng nhập</NavLink></button>
                     </div>
                 </div>
             </div>         

@@ -23,7 +23,7 @@
 } */
 .containerItem_infor .buy-btn {
     padding: 8px;
-    background-color: red;
+    background-color: #aaa69d;
     color: white;
     border-radius: 8px;
     margin-right: 8px;
@@ -31,13 +31,13 @@
 }
 .containerItem_infor .addToCart-btn {
     padding: 8px;
-    background-color: rebeccapurple;
+    background-color: #84817acb;
     color: white;
     border-radius: 8px;
     margin-right: 8px;
 }
 
 .containerItem_infor-price {
-    color: red;
+    color: #2f3542;
     font-weight: 700;
 }
