@@ -4,7 +4,6 @@
 }
 .footer a {
     padding: 0;
-    color: darkblue;
 }
 .name {
     padding: 24px 0;
@@ -40,6 +39,9 @@
 .footer__infor-logo {
 
 } */
+.footer__infor-logo h2 {
+    color: darkblue;
+}
 .footer__infor-logo form input {
     background-color: #ccc;
     width: 60%;
