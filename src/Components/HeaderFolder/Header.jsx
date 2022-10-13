@@ -10,10 +10,14 @@ import AboutUs from "../AboutUsFolder/AboutUs";
 // import banner from "../Images/banner.jpg";
 import { NavLink as Link, NavLink } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from "../LoginFolder/Login";
+import styled from "styled-components";
 
 function Header() {
+    const [style, setStyle] = useState("")
     return (
         <Router>
+             
             <div className="header">
                 <div className="header-left">
                     <a href="#">
@@ -23,9 +27,9 @@ function Header() {
                 </div>
 
                 <div className="header-nav_menu">
-                    <button ><NavLink to="/MainPage">MainPage</NavLink></button>
-                    <button ><NavLink to="/Products">Products</NavLink></button>
-                    <button ><NavLink to="/AboutUs">AboutUs</NavLink></button>
+                    <button className={style === 'mainpage' && 'stylebtn'} onClick={() => setStyle("mainpage")} ><NavLink to="/MainPage">MainPage</NavLink></button>
+                    <button className={style === 'product' && 'stylebtn'} onClick={() => setStyle("product")}><NavLink to="/Products">Products</NavLink></button>
+                    <button className={style === 'aboutus' && 'stylebtn'} onClick={() => setStyle("aboutus")}><NavLink to="/AboutUs">AboutUs</NavLink></button>
                 </div>
 
                 <div className="header-right">
@@ -38,17 +42,19 @@ function Header() {
 
                     <div className="header-right_item">
                         <button><img src={shoppingIcon} /></button>
-                        <button className="logIn-btn">Đăng nhập</button>
+                        <button className="logIn-btn"><NavLink to="/Login">Login</NavLink></button>
                     </div>
                 </div>
-            </div>
+            </div>         
             <div className="container">
                 <Routes>
                     <Route path='/MainPage' element={<MainPage />} />
                     <Route path='/Products' element={<Products />} />
                     <Route path='/AboutUs' element={<AboutUs />} />
+                    <Route path='/Login' element={<Login />} />
                 </Routes>
             </div>
+           
 
         </Router>
 

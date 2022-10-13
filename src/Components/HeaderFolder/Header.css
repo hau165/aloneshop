@@ -89,3 +89,6 @@ button {
     line-height: 16px;
 }
 
+.stylebtn {
+    border-bottom: solid 2px black;
+}
