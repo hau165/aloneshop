@@ -1,0 +1,41 @@
+.loginForm {
+    background-color: #ccc;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.loginForm h3 {
+    padding: 24px;
+    margin: 0;
+}
+.loginForm p:last-child {
+    margin: 0;
+}
+.loginForm form {
+    
+}
+.loginForm form input {
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 25px;
+    border: 0;
+}
+.loginForm form button {
+
+}
+.loginForm-icon {
+
+}
+.loginForm-icon a {
+    display: inline-block;
+    height: 48px;
+    justify-content: c;
+}
+.loginForm-icon a img {
+    padding: 8px;
+    justify-content: center;
+}
