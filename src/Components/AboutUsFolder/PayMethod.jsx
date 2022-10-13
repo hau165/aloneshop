@@ -4,35 +4,48 @@ import "./AboutUs.css";
 function Header() {
   return (
     <div className="aboutUs">
-      <div className="aboutUs__main">
-        <h4>Phương thức thanh toán</h4>
-        <p>Chúng tôi áp dụng 02 hình thức thanh toán: Thanh toán trả trước qua 
-            tài khoản ngân hàng & Thanh toán COD</p>
-        <ol>Thanh toán trả trước</ol>
-        <ol></ol>
-        <p>
-          AloneSharks&reg; cung cấp các sản phẩm phụ kiện công nghệ thông minh,
-          chất lượng và thiết thực trong cuộc sống. Hành trình xây dựng thương
-          hiệu được khách hàng tin chọn, ngay khi có nhu cầu tìm kiếm những phụ
-          kiện công nghệ thông minh chỉ vừa bắt đầu!
-        </p>
-        <p>
-          Với cam kết sản phẩm chất lượng, chế độ bảo hành tin cậy và đề cao
-          trải nghiệm của quý khách, AloneSharks&reg; hi vọng trở thành người
-          bạn thân và không ngừng phục vụ, truyền cảm hứng để khách hàng "chill
-          hết nấc, xài hết ga" với những sản phẩm công nghệ thông minh.
-        </p>
-        <p>
-          1St Flagship Store: Trường Đại học Công nghệ Thông tin - ĐHQG TPHCM.
-          <br />
-          Phone Number: 0799684120
-          <br />
-          Mail: AloneSharks.Corner@gmail.com
-          <br />
-          Instagram: @AloneSharks.vn
-        </p>
+        <div className="aboutUs__main">
+          <h4>Phương thức thanh toán</h4>
+          <p>
+            Chúng tôi áp dụng 02 hình thức thanh toán: Thanh toán trả trước qua
+            tài khoản ngân hàng & Thanh toán COD
+          </p>
+          <h5>1. Thanh toán trả trước</h5>
+          <p>
+            - Thanh toán chuyển khoản 100% giá trị đơn hàng gồm: giá trị đơn
+            hàng & chi phí vận chuyển.
+          </p>
+          <p>
+            <b>-Lưu ý</b>
+          </p>
+          <p>
+            + Quý KH vui lòng không chuyển khoản trước khi nhận được xác nhận từ
+            bộ phận Sale Online.
+          </p>
+          <p>
+            + Sau khi nhận được xác nhận từ bộ phận Sale Online, quý KH vui lòng
+            chuyển khoản hoàn tất đơn hàng trong vòng 24h (không tính thứ bảy,
+            chủ nhật & các ngày lễ tết). Trong trường hợp quá 24h, chúng tôi
+            không nhận được thanh toán hoàn tất của quý khách, đơn hàng sẽ không
+            còn hiệu lực.
+          </p>
+
+          <h5>2. Thanh toán trả sau (COD)</h5>
+          <p>
+            - Là hình thức khách hàng thanh toán tiền mặt trực tiếp cho nhân
+            viên vận chuyển khi nhận hàng.
+          </p>
+          <p>
+            - Khi hàng được chuyển giao đến quý khách, xin vui lòng hoàn tất
+            việc thanh toán và ký xác nhận với nhân viên giao hàng trước, sau đó
+            quý khách nhận hàng và kiểm tra sau. Nếu sản phẩm có bất kỳ lỗi hay
+            khiếm khuyết nào không đúng ý muốn, quý khách thực hiện quy trình
+            đổi hàng. Quý khách vui lòng giữ lại biên lai vận chuyển để xác minh
+            ngày nhận hàng và thời gian đổi hàng
+          </p>
+        </div>
       </div>
-    </div>
+      
   );
 }
 
