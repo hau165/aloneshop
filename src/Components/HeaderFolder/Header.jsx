@@ -23,9 +23,9 @@ function Header() {
                 </div>
 
                 <div className="header-nav_menu">
-                    <button ><NavLink to="/MainPage">MainPage</NavLink></button>
-                    <button ><NavLink to="/Products">Products</NavLink></button>
-                    <button ><NavLink to="/AboutUs">AboutUs</NavLink></button>
+                    <button ><NavLink to="/MainPage">Trang chủ</NavLink></button>
+                    <button ><NavLink to="/Products">Sản phẩm</NavLink></button>
+                    <button ><NavLink to="/AboutUs">Giới thiệu</NavLink></button>
                 </div>
 
                 <div className="header-right">

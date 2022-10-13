@@ -30,7 +30,7 @@ function Header() {
             <div className="footer__infor-contact">
                 <div className="footer__infor-introduce-name name">Thông tin liên hệ</div>
                 <div className="footer__infor-introduce-infor infor">Trường Đại học Công nghệ 
-                    Thông tin- ĐHQG TPHCM<br/><b>Số điện thoại:</b> 0972060394<br/><b>Email:</b> AloneSharks.Corner@gmail.com</div>
+                    Thông tin- ĐHQG TPHCM<br/><b>Số điện thoại:</b> 0799684120<br/><b>Email:</b> AloneSharks.Corner@gmail.com</div>
             </div>
 
             <div className="footer__infor-logo">
@@ -47,7 +47,7 @@ function Header() {
         </div>
 
         <div className="footer_copyright">
-            <p>Copyright &copy; 2022 AloneSharks&reg;.Powered by AloneSharks</p>
+            <p>Copyright &copy; 2022 AloneSharks&reg;. Powered by AloneSharks</p>
         </div>
     </div>
   );
