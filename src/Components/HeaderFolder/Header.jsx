@@ -27,15 +27,9 @@ function Header() {
                 </div>
 
                 <div className="header-nav_menu">
-<<<<<<< HEAD
                     <button className={style === 'mainpage' && 'stylebtn'} onClick={() => setStyle("mainpage")} ><NavLink to="/MainPage">MainPage</NavLink></button>
                     <button className={style === 'product' && 'stylebtn'} onClick={() => setStyle("product")}><NavLink to="/Products">Products</NavLink></button>
                     <button className={style === 'aboutus' && 'stylebtn'} onClick={() => setStyle("aboutus")}><NavLink to="/AboutUs">AboutUs</NavLink></button>
-=======
-                    <button ><NavLink to="/MainPage">Trang chủ</NavLink></button>
-                    <button ><NavLink to="/Products">Sản phẩm</NavLink></button>
-                    <button ><NavLink to="/AboutUs">Giới thiệu</NavLink></button>
->>>>>>> 05255dbba237af998109b3ff34e41f69370a572a
                 </div>
 
                 <div className="header-right">
@@ -54,6 +48,7 @@ function Header() {
             </div>         
             <div className="container">
                 <Routes>
+                    <Route path="/" element={<MainPage/>}></Route>
                     <Route path='/MainPage' element={<MainPage />} />
                     <Route path='/Products' element={<Products />} />
                     <Route path='/AboutUs' element={<AboutUs />} />
