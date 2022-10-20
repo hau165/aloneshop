@@ -14,7 +14,6 @@ import Login from "../LoginFolder/Login";
 import styled from "styled-components";
 
 function Header() {
-    const [style, setStyle] = useState("")
     return (
         <Router>
              
@@ -27,9 +26,9 @@ function Header() {
                 </div>
 
                 <div className="header-nav_menu">
-                    <button className={style === 'mainpage' && 'stylebtn'} onClick={() => setStyle("mainpage")} ><NavLink to="/MainPage">Trang chủ</NavLink></button>
-                    <button className={style === 'product' && 'stylebtn'} onClick={() => setStyle("product")}><NavLink to="/Products">Sản phẩm</NavLink></button>
-                    <button className={style === 'aboutus' && 'stylebtn'} onClick={() => setStyle("aboutus")}><NavLink to="/AboutUs">Giới thiệu</NavLink></button>
+                    <button><NavLink to="/MainPage">Trang chủ</NavLink></button>
+                    <button><NavLink to="/Products">Sản phẩm</NavLink></button>
+                    <button><NavLink to="/AboutUs">Giới thiệu</NavLink></button>
                 </div>
 
                 <div className="header-right">
@@ -55,8 +54,6 @@ function Header() {
                     <Route path='/Login' element={<Login />} />
                 </Routes>
             </div>
-           
-
         </Router>
 
     );
