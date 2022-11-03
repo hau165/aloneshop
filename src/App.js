@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './App.css';
 import Header from './Components/HeaderFolder/Header'
 import MainPage from './Components/MainPageFolder/MainPage'
@@ -12,6 +11,7 @@ function App() {
   return (
     <div className="App">
         <Header/>
+
         <Footer/>
         
     </div>

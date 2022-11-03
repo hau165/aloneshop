@@ -2,7 +2,10 @@ import { Component } from "react";
 import React, { useState } from "react";
 import data from '../data'
 import "./Products.css";
-import banner from "../Images/banner_1.jpg";
+import banner1 from "../Images/banner/banner_1.jpg";
+import banner2 from "../Images/banner/banner2.webp";
+import banner3 from "../Images/banner/banner3.webp";
+import banner4 from "../Images/banner/banner4.jpg";
 import ContainerItem from "../ContainerItem";
 import ProductsHeadphone from "./ProductsHeadphone";
 import ProductsKeyboard from "./ProductsKeyboard";
@@ -18,7 +21,7 @@ function Products() {
     return (
         <div>
             <div className="mainPage_banner">
-                <img className="mainPage_banner-img" src={banner} alt="banner"/>
+                <img className="mainPage_banner-img" src={banner1} alt="banner"/>
             </div>
 
             <div className="container__products">

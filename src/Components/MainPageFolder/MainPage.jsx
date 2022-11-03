@@ -1,26 +1,19 @@
-import { Component } from "react";
-import React, { useState } from "react";
 import "./MainPage.css";
-import banner from "../Images/banner_1.jpg";
-import data from '../data'
+import data from '../data';
 import ContainerItem from "../ContainerItem";
-
+import Slideshow from "../Slideshow/Slideshow";
 function MainPage() {
-    const [active, setActive] = useState("Trang chủ")
     return (
         <div>
-            <div className="mainPage_banner">
-                <img className="mainPage_banner-img" src={banner} alt="banner"/>
-            </div>
-
+            <Slideshow/>
             <div className="newProducts">
                 <h3 className="newProducts_name name">Sản phẩm mới</h3>
                 <div className="newProducts_product product">
                     {data[0].map(item => ContainerItem(item.image, item.name, item.price))}
                 </div>
             </div>
-                <div className="newProducts_product"></div>
-            
+            <div className="newProducts_product"></div>
+
             <div className="bestSeller">
                 <h3 className="bestSeller_name name">Bán chạy</h3>
                 <div className="bestSeller_product product">
@@ -39,3 +32,4 @@ function MainPage() {
 }
 
 export default MainPage;
+

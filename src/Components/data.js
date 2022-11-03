@@ -1,15 +1,15 @@
-import headphone1 from "./Images/headphone-overear-1.jpg";
-import headphone2 from "./Images/headphone-overear-2.jpg";
-import headphone3 from "./Images/headphone-overear-3.jpg";
-import headphone4 from "./Images/headphone-overear-4.jpg";
-import headphone5 from "./Images/headphone-overear-bluetooth-1.jpg";
-import headphone6 from "./Images/headphone-overear-bluetooth-2.jpg";
-import headphone7 from "./Images/headphone-overear-bluetooth-3.jpg";
-import headphone8 from "./Images/headphone-overear-bluetooth-4.jpg";
-import headphone9 from "./Images/headphone-inear-1.jpg";
-import headphone10 from "./Images/headphone-inear-2.jpg";
-import headphone11 from "./Images/headphone-inear-3.jpg";
-import headphone12 from "./Images/headphone-inear-4.jpg";
+import headphone1 from "./Images/tainghe/BluetoothMozarK8/bluetoothmozardk8hong1org.jpg";
+import headphone2 from "./Images/tainghe/BluetoothMozarK8/bluetooth-mozard-k8-xanh-4-org.jpg";
+import headphone3 from "./Images/tainghe/BluetoothTrueWirelessAVA-DS200A-WB/bluetooth-true-wireless-ava-ds200a-wb-den-2.jpg";
+import headphone4 from "./Images/tainghe/BluetoothTrueWirelessAVA-DS200A-WB/bluetooth-true-wireless-ava-ds200a-wb-xanh-6.jpg";
+import headphone5 from "./Images/tainghe/BluetoothTrueWirelessAVA-DS206/tai-nghe-bluetooth-true-wireless-ava-ds206-hong-1.jpg";
+import headphone6 from "./Images/tainghe/BluetoothTrueWirelessAVA-DS206/tai-nghe-bluetooth-true-wireless-ava-ds206-trang-1.jpg";
+import headphone7 from "./Images/tainghe/BluetoothTrueWirelessOPPOENCOAir/bluetooth-true-wireless-oppo-enco-air-eti61-trang-4-1.jpg";
+import headphone8 from "./Images/tainghe/BluetoothTrueWirelessOPPOENCOAir/bluetooth-true-wireless-oppo-enco-air-eti61-trang-den-3.jpg";
+import headphone9 from "./Images/tainghe/BluetoothTrueWirelessRezoF15/bluetooth-true-wireless-rezo-f15-2.jpeg";
+import headphone10 from "./Images/tainghe/BluetoothTrueWirelessRezoF15/bluetooth-true-wireless-rezo-f15-hong-2.jpeg";
+import headphone11 from "./Images/tainghe/EPMozardDS510-WBXanh/tai-nghe-ep-mozard-ds510-wb-xanh-duong-1.jpg";
+import headphone12 from "./Images/tainghe/EPMozardDS510-WBXanh/tai-nghe-ep-mozard-ds510-wb-xanh-xanh-3-org.jpg";
 
 export default [
 // data[0]
