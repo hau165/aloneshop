@@ -1,7 +1,7 @@
 import { Component } from "react";
 import React, { useState } from "react";
 import "./Header.css";
-import logo from "../Images/logo.png";
+import logo from "../Images/logo.webp";
 import shoppingIcon from "../Images/shopping-icon.png";
 import searchIcon from "../Images/black-search-icon.png";
 import MainPage from "../MainPageFolder/MainPage";
@@ -21,7 +21,7 @@ function Header() {
                 <div className="header-left">
                     <a href="#">
                         <img src={logo} />
-                        <h2>Shark Shop</h2>
+                        <h2>TechieShop</h2>
                     </a>
                 </div>
 

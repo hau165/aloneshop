@@ -1,14 +1,14 @@
 import "./Login.css";
 import FbIcon from "../Images/facebook.ico";
 import GgIcon from "../Images/google.ico";
-import logo from "../Images/logo.png";
+import logo from "../Images/logo.webp";
 
 function Login() {
   return (
     <div className="loginmain">
       <div className="logomain">
         <img className="logo" src={logo}></img>
-        <p>Alone Shark</p>
+        <p>TechieShop</p>
       </div>
 
       <div className="loginForm">

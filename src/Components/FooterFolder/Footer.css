@@ -23,6 +23,7 @@
 .footer_infor a {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 /* .footer__infor-introduce-name  {
 
@@ -35,10 +36,10 @@
 }
 .footer__infor-contact {
 
-}
-.footer__infor-logo {
-
-} */
+}*/
+.footer__infor-logo img{
+    width: 50px;
+} 
 .footer__infor-logo h2 {
     color: darkblue;
 }
