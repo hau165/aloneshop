@@ -1,17 +1,15 @@
-import { Component } from "react";
-import React, { useState } from "react";
+
 import "./Header.css";
-import logo from "../Images/logo.webp";
+import logo from "../Images/logo.png";
 import shoppingIcon from "../Images/shopping-icon.png";
 import searchIcon from "../Images/black-search-icon.png";
 import MainPage from "../MainPageFolder/MainPage";
 import Products from "../ProductFolder/Products";
 import AboutUs from "../AboutUsFolder/AboutUs";
-// import banner from "../Images/banner.jpg";
+import Shopping from "../Shopping/Shopping";
 import { NavLink as Link, NavLink } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from "../LoginFolder/Login";
-import styled from "styled-components";
 
 function Header() {
     return (
@@ -19,14 +17,14 @@ function Header() {
              
             <div className="header">
                 <div className="header-left">
-                    <a href="#">
-                        <img src={logo} />
-                        <h2>TechieShop</h2>
+                    <a href="#" >
+                        <img src={logo} alt="Logo"/>
+                        <h2>AloneSharks</h2>
                     </a>
                 </div>
 
                 <div className="header-nav_menu">
-                    <button><NavLink to="/MainPage">Trang chủ</NavLink></button>
+                    <button id="#"><NavLink to="/MainPage">Trang chủ</NavLink></button>
                     <button><NavLink to="/Products">Sản phẩm</NavLink></button>
                     <button><NavLink to="/AboutUs">Giới thiệu</NavLink></button>
                 </div>
@@ -40,7 +38,7 @@ function Header() {
                     </div>
 
                     <div className="header-right_item">
-                        <button><img src={shoppingIcon} /></button>
+                        <button> <NavLink to="/Shoppingcart"><img src={shoppingIcon} alt="Shopping" /></NavLink> </button>
                         <button className="logIn-btn"><NavLink to="/Login">Đăng nhập</NavLink></button>
                     </div>
                 </div>
@@ -52,6 +50,7 @@ function Header() {
                     <Route path='/Products' element={<Products />} />
                     <Route path='/AboutUs' element={<AboutUs />} />
                     <Route path='/Login' element={<Login />} />
+                    <Route path="/Shoppingcart" element={<Shopping/>}/>
                 </Routes>
             </div>
         </Router>

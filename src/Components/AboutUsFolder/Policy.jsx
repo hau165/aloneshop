@@ -1,18 +1,16 @@
-import { Component } from "react";
-import React, { useState } from "react";
 import "./AboutUs.css";
 function Header() {
   return (
     <div className="aboutUs">
         <div className="aboutUs__main">
-          <h4>CHÍNH SÁCH BẢO HÀNH TechieShop&reg; </h4>
+          <h4>CHÍNH SÁCH BẢO HÀNH AloneSharks&reg; </h4>
           <p>
             Thật khó chịu khi phải làm phải đi bảo hành, đổi, trả cho những sản
             phẩm vừa mua!
             <br />
             Và cũng không mấy dễ chịu khi phải đọc những trang "Chính sách” dài
             ngoằng với đủ thứ ràng buộc và lắc léo người dùng (thường là như
-            vậy). Hiểu được khó khăn đó của khách hàng, TechieShop&reg; sẽ viết
+            vậy). Hiểu được khó khăn đó của khách hàng, AloneSharks&reg; sẽ viết
             ngắn trong 6 mục về chế độ{" "}
             <b>
               bảo hành mang tên /SHARKSCARE/, lên tới 2 tháng cho tất cả sản
@@ -34,7 +32,7 @@ function Header() {
             seal.
           </p>
           <p>
-            - TechieShop&reg; hỗ trợ hoàn toàn phí vận chuyển bảo hành cho quý
+            - AloneSharks&reg; hỗ trợ hoàn toàn phí vận chuyển bảo hành cho quý
             khách.
           </p>
           <h6>b. Đối với lỗi do người sử dụng</h6>
@@ -44,12 +42,12 @@ function Header() {
           </p>
           <h5>2. Điều kiện bảo hành</h5>
           <p>
-            - Sản phẩm được phân phối bởi TechieShop&reg;, có ghi nhận hóa đơn điện
+            - Sản phẩm được phân phối bởi AloneSharks&reg;, có ghi nhận hóa đơn điện
             tử (thông tin mua hàng), trùng Series.
           </p>
           <p>
             - Sản phẩm hỏng hóc hoặc do lỗi do nhà sản xuất trong điều kiện sử
-            dụng bình thường, do chuyên viên kỹ thuật của TechieShop&reg; xác định.
+            dụng bình thường, do chuyên viên kỹ thuật của AloneSharks&reg; xác định.
           </p>
           <p>
             - Sản phẩm còn nguyên tem bảo hành, chưa qua can thiệp phần cứng từ
@@ -62,7 +60,7 @@ function Header() {
           </p>
           <h5>3. Thời gian bảo hành</h5>
           <p>
-            - Đối với tất cả sản phẩm của TechieShop&reg; đều được hưởng chính sách
+            - Đối với tất cả sản phẩm của AloneSharks&reg; đều được hưởng chính sách
             bảo hành thời hạn 2 tháng, 1 đổi 1 trong 7 ngày nếu phát hiện lỗi do
             NXS.
           </p>
@@ -81,11 +79,11 @@ function Header() {
           </p>
           <p>
             - Thông tin mua hàng không có trong hệ thống, khách hàng không xuất
-            trình được hóa đơn hay thông tin mua hàng mà TechieShop&reg; yêu cầu.
+            trình được hóa đơn hay thông tin mua hàng mà AloneSharks&reg; yêu cầu.
           </p>
           <p>
             - Có dấu hiệu va chạm vật lý, rơi rớt, móp méo, dính keo & cháy nổ
-            và đã từng sửa chữa ở nơi khác ngoài TechieShop&reg;.
+            và đã từng sửa chữa ở nơi khác ngoài AloneSharks&reg;.
           </p>
           <p>
             - Không bảo hành Pin, trầy xước và ngoại hình của sản phẩm (những

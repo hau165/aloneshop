@@ -1,5 +1,3 @@
-import { Component } from "react";
-import React, { useState } from "react";
 import "./AboutUs.css";
 function Header() {
   return (
