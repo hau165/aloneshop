@@ -2,24 +2,28 @@ import "./Login.css";
 import FbIcon from "../Images/facebook.ico";
 import GgIcon from "../Images/google.ico";
 import logo from "../Images/logo.png";
-
+import { NavLink as Link } from "react-router-dom";
+import React, { useState } from "react";
 function Login() {
+  const [emaillog, setEmaillog] = useState(" ");
+  const [passwordlog, setPasswordlog] = useState(" ");
   return (
+
     <div className="loginmain">
       <div className="logomain">
-        <img className="logo" src={logo}></img>
+        <img className="logo" src={logo} alt="logo"></img>
         <p>AloneSharks</p>
       </div>
 
       <div className="loginForm">
         <h3>Đăng nhập</h3>
         <form action="">
-          <input type="text" name="" id="" placeholder="Email hoặc số điện thoại"/>
-          <input type="text" name="" id="" placeholder="Mật khẩu" />
+          <input type="text" placeholder='Tên đăng nhập' onChange={(event) => setEmaillog(event.target.value)} />
+          <input type="password" placeholder='Mật khẩu' onChange={(event) => setPasswordlog(event.target.value)} />
           <button>Đăng nhập</button>
         </form>
-        <a href="#">Quên mật khẩu</a>
-        <p>Bạn chưa có tài khoản? <a href="#">Đăng ký ngay</a></p>
+        <br></br>
+        <Link to='/Register'><p>Bạn chưa có tài khoản? Đăng ký ngay </p></Link>
         <p>Hoặc đăng nhập bằng</p>
         <div className="loginForm-icon">
           <button>

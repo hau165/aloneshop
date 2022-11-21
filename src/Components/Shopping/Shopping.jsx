@@ -35,12 +35,9 @@ function Shopping()
 
                         </div>
                     </div>
-                    <button className="buy-btn"><NavLink to='/ShipAddress'>Mua hàng</NavLink></button>
+                    <NavLink to='/ShipAddress'><button className="buy-btn">Mua hàng</button></NavLink>
                 </div>
             </div>
-            <Routes>
-                <Route path='/ShipAddress' element={<ShipAddress/>} />
-            </Routes>
         </div>
 
     );

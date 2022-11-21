@@ -7,6 +7,8 @@ import MainPage from "../MainPageFolder/MainPage";
 import Products from "../ProductFolder/Products";
 import AboutUs from "../AboutUsFolder/AboutUs";
 import Shopping from "../Shopping/Shopping";
+import Register from "../Register/Register";
+import ShipAddress from "../ShipAddress/ShipAddress";
 import { NavLink as Link, NavLink } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from "../LoginFolder/Login";
@@ -51,6 +53,8 @@ function Header() {
                     <Route path='/AboutUs' element={<AboutUs />} />
                     <Route path='/Login' element={<Login />} />
                     <Route path="/Shoppingcart" element={<Shopping/>}/>
+                    <Route path='/Register' element={<Register />} />
+                    <Route path='/ShipAddress' element={<ShipAddress/>} />
                 </Routes>
             </div>
         </Router>
